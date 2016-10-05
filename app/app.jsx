@@ -13,6 +13,9 @@ if (typeof window !== 'undefined') {
     window.React = React;
 }
 
+// App CSS
+require("style!css!sass!applicationStyles");
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
